@@ -24,11 +24,12 @@
     height: 100%;
     width: 18%;
     position: fixed;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-right: 1px solid #eee;
 }
 
 .logoComponentDiv {
     margin-bottom: 15px;
-    margin-top: 25px;
 }
 
 .nextButtonDiv {
@@ -36,5 +37,22 @@
     align-items: flex-end;
     justify-content: center;
     height: 100%;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.signOutButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signOutButtonContainer button {
+    width: 90%;
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.signOutButtonContainer button:hover, .signOutButtonContainer button:active, .signOutButtonContainer button:focus {
+    background: rgb(189 189 189 / 10%);;
 }

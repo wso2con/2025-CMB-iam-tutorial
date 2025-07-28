@@ -262,7 +262,7 @@ const Chat = ({ session }) => {
                 bottom: 32,
                 right: 32,
                 zIndex: 1000,
-                background: '#3582fc',
+                background: 'linear-gradient(45deg, var(--rs-primary-700), var(--rs-primary-400))',
                 color: '#fff',
                 border: 'none',
                 borderRadius: '50%',
@@ -278,7 +278,7 @@ const Chat = ({ session }) => {
               }}
               aria-label="Open chat"
           >
-            <img src="/agent-icon.png" alt="Chat" style={{ width: 45, height: 45 }} />
+            <img src="/agent-icon.png" alt="Chat" style={{ width: 45, height: 45, filter: 'brightness(0) invert(1)' }} />
           </button>
       )}
       {/* Popup chat box */}

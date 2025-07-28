@@ -18,7 +18,7 @@
 
 import { getConfig } from "@teamspace-app/util-application-config-util";
 import { SharedLogoComponent } from "@teamspace-app/shared/ui/ui-components";
-import logoImage from "../../../../ui-assets/lib/images/teamspace_logo.png";
+import logoImage from "../../../../../public/logo.svg";
 import { LogoComponentProps } from "../../models/logoComponent/logoComponent";
 
 /**

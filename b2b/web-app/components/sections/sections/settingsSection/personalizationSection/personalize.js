@@ -16,7 +16,7 @@
  * under the License.
  */
 
-import logoImage from "../../../../../ui/ui-assets/lib/images/teamspace_logo.png";
+import logoImage from "../../../../../public/logo.svg";
 import favicon from "../../../../../public/favicon.png";
 const { useThemeStore } = require("../../../theme-store");
 

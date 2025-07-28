@@ -100,7 +100,9 @@ export function SidenavComponent(prop: SidenavComponentProps) {
                     </Nav>
                 </Sidenav.Body>
                 <div className={ styles["nextButtonDiv"] }>
-                    <Button size="lg" appearance="default" onClick={ signOutOnClick }>Sign Out</Button>
+                    <div className={ styles.signOutButtonContainer }>
+                        <Button size="lg" appearance="default" onClick={ signOutOnClick }>Sign Out</Button>
+                    </div>
                 </div>
             </Sidenav>
         </div>

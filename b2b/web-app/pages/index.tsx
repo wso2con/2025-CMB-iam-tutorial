@@ -25,7 +25,7 @@ import { getPersonalization } from "../APICalls/GetPersonalization/get-personali
 import personalize from "../components/sections/sections/settingsSection/personalizationSection/personalize";
 import { Personalization } from "../types/personalization";
 import { SignUp } from "../components/sections/signup";
-import logoImage from "@teamspace-app/ui-assets/lib/images/teamspace_logo.png";
+import logoImage from "../public/logo.svg";
 import favicon from "../public/favicon.png";
 
 /**

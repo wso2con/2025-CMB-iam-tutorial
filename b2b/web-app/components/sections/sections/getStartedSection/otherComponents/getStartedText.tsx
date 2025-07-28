@@ -19,7 +19,7 @@
 import { LogoComponent } from "@teamspace-app/ui-components";
 import PagePreviousIcon from "@rsuite/icons/PagePrevious";
 import Image from "next/image";
-import { Button, Panel, Stack } from "rsuite";
+import { Button, Heading, Panel, Stack } from "rsuite";
 import styles from "../../../../../styles/Settings.module.css";
 
 export default function GetStartedText() {
@@ -30,7 +30,7 @@ export default function GetStartedText() {
                 <Stack direction="column" spacing={ 50 } justifyContent="center">
 
                     <Stack direction="column" spacing={ 10 } justifyContent="center">
-                        <p><strong>Welcome to</strong></p>
+                        <Heading level={4}>👋 Welcome to</Heading>
                         <LogoComponent imageSize="medium" />
                     </Stack>
                 </Stack>

@@ -1,7 +1,7 @@
 import React from "react";
 import { CustomProvider, Button } from "rsuite";
 import { generateThemeVars } from "./themeUtils";
-import logoImage from "../../../../../ui/ui-assets/lib/images/teamspace_logo.png";
+import logoImage from "../../../../../public/logo.svg";
 
 interface BrandingPreviewSectionProps {
     logoUrl: string;

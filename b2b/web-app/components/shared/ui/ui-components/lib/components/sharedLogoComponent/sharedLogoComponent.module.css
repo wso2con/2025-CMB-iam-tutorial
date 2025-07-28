@@ -35,3 +35,11 @@
     margin: 12px;
     align-self: stretch;
 }
+
+.logoContainer {
+    width: 100%;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    background: white;
+}

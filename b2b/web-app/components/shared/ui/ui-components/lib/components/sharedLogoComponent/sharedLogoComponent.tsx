@@ -33,7 +33,9 @@ export function SharedLogoComponent(prop: SharedLogoComponentProps) {
 
     return (
         <div className={ styles["logoDiv"] }>
-            <Logo image={ image } imageSize={ imageSize } white={ white } />
+            <div className={ styles.logoContainer }>
+                <Logo image={ image } imageSize={ imageSize } white={ white } />
+            </div>
             <p className={ styles["nameTag"] }>{ tagLine } </p>
             {
                 name
@@ -68,7 +70,7 @@ function Logo(prop: SharedLogoProps) {
 
         switch (size) {
             case "small":
-                imageStyle["width"] = "15vw";
+                imageStyle["width"] = "200px";
 
                 break;
             case "medium":
